@@ -1,152 +1,167 @@
-🎮 ScaleShift
+<!-- ============================================ -->
+<!--               SCALESHIFT README             -->
+<!-- ============================================ -->
 
-Strategic Size-Shifting Multiplayer Mini Golf
+<p align="center">
+  <img src="https://img.shields.io/badge/Game-ScaleShift-111111?style=for-the-badge&logo=unity&logoColor=white" />
+</p>
 
-⸻
+<h1 align="center">🎮 ScaleShift</h1>
+<h3 align="center">Strategic Size-Shifting Multiplayer Mini Golf</h3>
 
-🌐 Live Demo
+<p align="center">
+  <a href="https://mahinmohan.github.io/Team_N3ON_Gold_Build/">
+    <img src="https://img.shields.io/badge/Play%20Live-WebGL%20Build-00C853?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/Engine-Unity%202D-000000?style=for-the-badge&logo=unity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
+</p>
 
-🔗 Play the game here:
+---
+
+## 🌐 Live Demo
+
+🔗 **Play here:**  
 https://mahinmohan.github.io/Team_N3ON_Gold_Build/
 
-⸻
+---
 
-🖼 Gameplay Preview
+## 🖼 Gameplay Preview
 
-Replace the image below with your actual gameplay GIF placed inside an assets/ folder.
+<p align="center">
+  <!-- Replace this with your actual gameplay GIF -->
+  <img src="assets/gameplay-demo.gif" width="800"/>
+</p>
 
-⸻
+> *Tip: Add a gameplay GIF inside an `assets/` folder in your repo for best presentation.*
 
-🚀 About ScaleShift
+---
 
-ScaleShift is a competitive 2D mini-golf game built around one core twist:
+# 🚀 About ScaleShift
 
-The ball changes size dynamically during gameplay.
+ScaleShift reimagines classic mini-golf by introducing a dynamic **ball size mechanic** that fundamentally alters gameplay strategy.
 
-Players must:
+Instead of simply aiming and shooting, players must:
 
-* Resize strategically
-* Avoid hazards
-* Use portals
-* Block opponents
-* Finish in the fewest strokes
+- Resize strategically  
+- Avoid hazards  
+- Utilize portals  
+- Disrupt opponents with power-ups  
+- Finish in the fewest strokes  
 
-Every mechanic interacts with the others to create layered strategic gameplay.
+Every mechanic interacts with another — creating layered strategic depth.
 
-⸻
+---
 
-🎮 Core Mechanics
+# 🎮 Core Mechanics
 
-🖱 Aiming & Shooting
+## 🖱 Aiming & Shooting
+- 360° mouse-based aiming  
+- Hold left-click to charge power  
+- Release to shoot  
+- Stroke counter increases per attempt  
+- Player with fewer strokes wins  
 
-* 360° mouse-based aiming
-* Hold left-click to charge power
-* Release to shoot
-* Each shot increases stroke count
-* Fewest strokes wins
+---
 
-⸻
+## 🔵🔴 Dynamic Ball Size
+- 🔵 Blue Zones → Ball enlarges  
+- 🔴 Red Zones → Ball shrinks  
+- Size directly affects:
+  - Movement distance  
+  - Gap navigation  
+  - Wall-breaking capability  
+  - Win eligibility  
 
-🔵🔴 Dynamic Ball Size
+---
 
-* 🔵 Blue Zones → Ball enlarges
-* 🔴 Red Zones → Ball shrinks
+## 🕳 Size-Matched Win Condition
 
-Ball size affects:
+To complete a level, the ball must **match the hole size**.
 
-* Movement distance
-* Gap navigation
-* Wall-breaking capability
-* Win eligibility
+Visual reinforcement includes:
+- Colored ring indicator
+- Tutorial annotations
+- Immediate mismatch feedback
 
-⸻
+---
 
-🕳 Size-Matched Win Condition
+## 🔺 Triangle Power-Up
 
-To complete a level, the ball must match the hole size.
+- Place blocking walls strategically  
+- Force opponents to reroute  
+- Walls can be broken depending on ball size  
+- Adds competitive tension  
 
-Visual reinforcement:
+---
 
-* Colored ring around the hole
-* Tutorial annotations
-* Immediate mismatch feedback
+## 🌀 Portals
 
-⸻
+- Teleport players across the map  
+- Enable alternate routing strategies  
+- Create unpredictability  
+- Highlighted with visual glow for clarity  
 
-🔺 Triangle Power-Up
+---
 
-* Place blocking walls strategically
-* Force opponents to reroute
-* Walls can be broken depending on ball size
-* Adds competitive tension
+## 🔥 Hazards
 
-⸻
+- Spike walls penalize or eliminate players  
+- Friction zones alter movement  
+- Environmental interactions increase challenge  
 
-🌀 Portals
+---
 
-* Teleport players across the map
-* Enable alternate routing strategies
-* Create unpredictability
-* Highlighted with visual glow
+# 📊 Data-Driven Iteration
 
-⸻
+ScaleShift was refined through analytics-backed playtesting.
 
-🔥 Hazards
+### Tracked Metrics:
+- 📍 Spike failure density  
+- 📏 Hole-size mismatch attempts  
+- 🔺 Power-up usage frequency  
+- 🌀 Portal utilization  
+- 🎯 Shot efficiency  
 
-* Spike walls penalize or eliminate players
-* Friction zones affect movement
-* Environmental interactions increase challenge
+### Improvements Made:
+- Enhanced tutorial clarity  
+- Improved spike reliability  
+- Better trajectory visualization  
+- Clearer size indicators  
+- Competitive balancing  
 
-⸻
+---
 
-📊 Data-Driven Iteration
-
-ScaleShift was refined through structured playtesting and analytics.
-
-Tracked metrics:
-
-* Spike failure density
-* Hole-size mismatch attempts
-* Power-up usage frequency
-* Portal utilization
-* Shot efficiency
-
-Improvements based on data:
-
-* Enhanced tutorial clarity
-* Improved spike reliability
-* Clearer size indicators
-* Refined trajectory visualization
-* Competitive balance adjustments
-
-⸻
-
-🧠 Design Philosophy
+# 🧠 Design Philosophy
 
 ScaleShift is built on three pillars:
 
-Accessibility
-Easy to understand mechanics.
+### 1️⃣ Accessibility  
+Easy to understand core mechanics.
 
-Strategic Depth
+### 2️⃣ Strategic Depth  
 Ball resizing changes how levels are solved.
 
-Competitive Interaction
-Players influence each other’s path and outcome.
+### 3️⃣ Competitive Interaction  
+Players directly influence each other’s path.
 
-⸻
+This transforms mini-golf into a tactical puzzle battleground.
 
-🛠 Tech Stack
+---
 
-* Unity 2D
-* C#
-* WebGL Deployment
-* Gameplay Analytics
+# 🛠 Tech Stack
 
-⸻
+- 🎮 Unity 2D  
+- 💻 C#  
+- 🌐 WebGL Deployment  
+- 📈 Gameplay Analytics  
 
-📁 Project Structure
+---
 
+# 📁 Project Structure
+
+```text
 ScaleShift/
 ├── Assets/
 │   ├── Scripts/
@@ -156,31 +171,3 @@ ScaleShift/
 │   └── gameplay-demo.gif
 ├── Builds/
 └── README.md
-
-⸻
-
-🎯 Future Improvements
-
-* Additional levels
-* Advanced portal mechanics
-* New power-ups
-* Alternative spike penalties
-* Improved physics feedback
-* Additional game modes
-
-⸻
-
-🏁 How to Play
-
-1. Aim with your mouse
-2. Charge shot power
-3. Release to shoot
-4. Resize strategically
-5. Match hole size
-6. Outplay your opponent
-
-⸻
-
-ScaleShift transforms classic mini-golf into a competitive, size-shifting strategy experience.
-
-⸻
