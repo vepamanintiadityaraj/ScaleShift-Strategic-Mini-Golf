@@ -27,14 +27,6 @@ https://mahinmohan.github.io/Team_N3ON_Gold_Build/
 
 ---
 
-## 🖼 Gameplay Preview
-
-<p align="center">
-  <!-- Replace this with your actual gameplay GIF -->
-  <img src="assets/gameplay-demo.gif" width="800"/>
-</p>
-
-> *Tip: Add a gameplay GIF inside an `assets/` folder in your repo for best presentation.*
 
 ---
 
