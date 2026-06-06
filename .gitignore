@@ -1,0 +1,8 @@
+Library/
+**/Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
